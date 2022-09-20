@@ -1,48 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        body {
+            background-image: url(istockphoto-1335824060-612x612.jpg)
+        }
+    </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fast Food Order</title>
+    <title>Fast Food</title>
+    <link rel="stylesheet" href=".css">
 </head>
 <body>
     
 </body>
 </html>
-
 <div class="main">
 	<h1>Order Here!</h1>
 	<form action="javascript:void(0);">
 		<fieldset>
-		<legend><div class="number">1</div> Your Information:</legend>
+		<legend><div class="number">1</div> Your Info:</legend>
 		<label for="name">Name:</label><br>
 	<input type="text" id="name" name="user_name"><br>
 		<label for="mail">Email:</label><br>
 	<input type="email" id="mail" name="user_email"><br>
-		<label for="phone">Phone Number:</label><br>
+		<label for="phone">Phone:</label><br>
 	<input type="tel" id="phone" name="user_tel"><br>
 		<label for="address">Address:</label><br>
 		<textarea></textarea>
 	</fieldset>
 	<fieldset>
 		<legend><div class="number">2</div> Main Course:</legend>
-		<input type="radio" id="hamburger" name="food"><label>Hamburger</label>
-		<input type="radio" id="Hot Dog" name="food"><label>Hot Dog</label><br>
-		<input type="checkbox" id="Nachos" name="food"><label>Nachos</label>
-        <input type="checkbox" id="Pizza"	name="food"><label>Pizza</label>
-        </fieldset>
+		<input type="radio" id="Pizza" name="Main Course"><label>Pizza</label>
+		<input type="radio" id="Hamburger" name="Main Course"><label>Hamburger</label><br>
+		<input type="checkbox" id="Hot Wings" name="Main Course"><label>Hot Wings</label>
+        <input type="checkbox" id="Hot Dog" name="Main Course"><label>Hot Dog</label>
+	</fieldset>
 	<fieldset>
 		<legend><div class="number">3</div> Sides:</legend>
-		<input type="radio" id="mac-and-cheese" name="sides"><label>Mac and Cheese</label>
-		<input type="radio" id="Hot Wings" name="Sides"><label>Hot Wings</label>
-        <input type="radio" id="Mashed Potatoes"><label>Mashed Potatoes</label>
+		<input type="radio" id="mac-and-cheese" name="Sides"><label>Mac and Cheese</label>
+		<input type="radio" id="mashed-potatoes" name="Sides"><label>Mashed Potatoes</label>
+        <input type="radio" id="Salad" name="Sides"><label>Salad</label>
 	</fieldset>
-    <fieldset>
-        <legend><div class="number">4</div> Drinks:</legend>
-        <input type="radio" id="Drinks" name="Drinks"><label>Dr Pepper</label>
-        <input type="radio" id="Drinks" name="Drinks"><label>Sprite</label>
-        <input type="radio" id="Drinks" name="Drinks"><label>Coke</label>
-        <input type="radio" id="Drinks" name="Drinks"><label>Root Beer</label>
-    </fieldset>
+	<fieldset>
+			<legend><div class="number">4</div> Drinks:</legend>
+		<input type="radio" id="Drinks" name="Drinks"><label>Dr. Pepper</label>
+		<input type="radio" id="Drinks" name="Drinks"><label>Sprite</label><br>
+		<input type="checkbox" id="Drinks" name="Drinks"><label>Coke</label>
+        <input type="checkbox" id="Drinks" name="Drinks"><label>Root Beer</label>
+	</fieldset>
+	<fieldset>
+	    <legend><div class="number">5</div> Size:</legend>
+	    <input type="checkbox" id="Small" name="Size"><label>Small</label><br>
+	    <input type="checkbox" id="Medium" name="Medium"><label>Medium</label></br>
+	    <input type="checkbox" id="Large" name="Large"><label>Large</label></br>
+	</fieldset>
+<fieldset>
+	<legend><div class="number">6</div> Any Allergies/Special Requests:</legend>
+<textarea></textarea>
+</fieldset>
+
+<html>
+<head>
+    <title>Link Submit Button</title>
+</head>
+<body>
+    <a href="Order-Placed.html">
+        <button>Place Order</Button>
+    </a>
+</body>
+</html>
+</div>
+ <div class="order">
+	<h1>Thanks for your order!</h1>
+	<img src="giphy.gif">
+</div>
+
 

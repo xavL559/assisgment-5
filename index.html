@@ -1,18 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<style>
-body {
-    background-image: url("download.jfif");
-    background-repeat:repeat;
-}
-</style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fast food</title>
+    <title>Fast Food Order</title>
 </head>
-<body> 
+<body>
+    
 </body>
 </html>
+
+<div class="main">
+	<h1>Order Here!</h1>
+	<form action="javascript:void(0);">
+		<fieldset>
+		<legend><div class="number">1</div> Your Information:</legend>
+		<label for="name">Name:</label><br>
+	<input type="text" id="name" name="user_name"><br>
+		<label for="mail">Email:</label><br>
+	<input type="email" id="mail" name="user_email"><br>
+		<label for="phone">Phone Number:</label><br>
+	<input type="tel" id="phone" name="user_tel"><br>
+		<label for="address">Address:</label><br>
+		<textarea></textarea>
+	</fieldset>
+	<fieldset>
+		<legend><div class="number">2</div> Main Course:</legend>
+		<input type="radio" id="hamburger" name="food"><label>Hamburger</label>
+		<input type="radio" id="Hot Dog" name="food"><label>Hot Dog</label><br>
+		<input type="checkbox" id="Nachos" name="food"><label>Nachos</label>
+        <input type="checkbox" id="Pizza"	name="food"><label>Pizza</label>
+        </fieldset>
+	<fieldset>
+		<legend><div class="number">3</div> Sides:</legend>
+		<input type="radio" id="mac-and-cheese" name="sides"><label>Mac and Cheese</label>
+		<input type="radio" id="Hot Wings" name="Sides"><label>Hot Wings</label>
+        <input type="radio" id="Mashed Potatoes"><label>Mashed Potatoes</label>
+	</fieldset>
+    <fieldset>
+        <legend><div class="number">4</div> Drinks:</legend>
+        <input type="radio" id="Drinks" name="Drinks"><label>Dr Pepper</label>
+        <input type="radio" id="Drinks" name="Drinks"><label>Sprite</label>
+        <input type="radio" id="Drinks" name="Drinks"><label>Coke</label>
+        <input type="radio" id="Drinks" name="Drinks"><label>Root Beer</label>
+    </fieldset>
 
